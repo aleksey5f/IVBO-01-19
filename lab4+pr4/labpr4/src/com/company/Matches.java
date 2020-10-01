@@ -61,6 +61,7 @@ public class Matches extends JFrame {
                 a=0;
                 b=0;
                 lab1.setText("Result: "+a+" X "+b);
+                lab2.setText("Last Scorer: "+"N/A");
             }
         });
     }
@@ -68,6 +69,3 @@ public class Matches extends JFrame {
         new Matches().setVisible(true);
     }
 }
-
-
-
